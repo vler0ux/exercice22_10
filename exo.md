@@ -20,3 +20,17 @@ on met à jour dans local :
 git add. 
 git commit -m "premier commit"
 ```
+
+on met à jour de nouveau dans local :
+
+```bash
+git add. 
+git commit -m "deuxième commit"
+```
+on créée la branche soeur "feat/add-header"
+on met à jour dans local :
+
+```bash
+git checkout -b feat/add-header
+git commit -m "premier commit"
+```
