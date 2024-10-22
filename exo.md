@@ -1,3 +1,7 @@
+pour ouvrir le git du projet, mettre dans le terminal
+
+code .
+
 création d'un dossier dans dev
 git.init
 git.status -> branch main
@@ -17,6 +21,7 @@ git status
 on met à jour dans local :
 
 ```bash
+enregistrer
 git add. 
 git commit -m "premier commit"
 ```
@@ -24,6 +29,7 @@ git commit -m "premier commit"
 on met à jour de nouveau dans local :
 
 ```bash
+enregistrer
 git add. 
 git commit -m "deuxième commit"
 ```
@@ -34,3 +40,9 @@ on met à jour dans local :
 git checkout -b feat/add-header
 git commit -m "premier commit"
 ```
+
+on retourne sur main
+git checkout main
+enregistrer
+git add. 
+git commit -m "3e commit"
